@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     
-    private let text: String = "#Meta’s oversight board recommended that the company review its procedures on handling content from celebrities and politicians, following revelations that harmful content that is posted by the rich and famous is often allowed to stay online, contravening the rules for other users. The board told Facebook’s owner that it “should prioritise expression that is important for #humanrights ”. Separately, #Facebook threatened to remove news content from its American site if legislation demands that it pay news organisations for the use of their material. Facebook prefers to make its own deals."
+    private let text: String = "The largest #strikes in #Britain for a decade caused the loss of 417,000 working hours during October, according to the Office for National Statistics. A further 1m hours are expected to be lost in December as rail workers, postal workers, nurses and teachers demand better pay and conditions. Inflation and soaring energy costs have created a #cost-of-living crisis in the country."
     
     var body: some View {
         HashtagText(text)

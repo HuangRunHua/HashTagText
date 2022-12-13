@@ -27,7 +27,6 @@ struct HashTagTextApp: App {
                 .sheet(isPresented: $showAlert) {
                     HashtagDetailView(hashtag: $selectedKeyword)
                 }
-
         }
     }
 }
