@@ -33,9 +33,6 @@ struct HashtagTextModifier: TextModifier {
                 output = output + Text(" ") +
                     Text(String(word))
                         .foregroundColor(color)
-//                        .onTapGesture {
-//                            action(String(word))
-//                        }
             } else {
                 output = output + Text(" ") + Text(String(word))
             }
