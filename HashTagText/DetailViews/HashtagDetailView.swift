@@ -12,7 +12,7 @@ struct HashtagDetailView: View {
     @Binding var hashtag: String
     
     var body: some View {
-        Text(hashtag)
+        Text("Selected Hashtag: " + hashtag)
             .padding()
     }
 }

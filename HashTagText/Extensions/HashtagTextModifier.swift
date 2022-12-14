@@ -33,7 +33,14 @@ struct HashtagTextModifier: TextModifier {
                         $0.link = URL(string: "hashtagtext://" + String(word))
                         $0.foregroundColor = color
                     }
-            } else {
+            } else if word.hasPrefix("@") {
+                output = output + Text(" ") +
+                    Text(String(word)) {
+                        $0.link = URL(string: "hashtagtext://" + String(word))
+                        $0.foregroundColor = color
+                    }
+            }
+            else {
                 output = output + Text(" ") + Text(String(word))
             }
         }

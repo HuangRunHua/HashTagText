@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A9111C352948A50000098A86 /* HashtagDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9111C342948A50000098A86 /* HashtagDetailView.swift */; };
+		A9111C372949B41400098A86 /* MentionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9111C362949B41400098A86 /* MentionDetailView.swift */; };
 		A959C1EA2943559100FD2DA7 /* HashTagTextApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A959C1E92943559100FD2DA7 /* HashTagTextApp.swift */; };
 		A959C1EC2943559100FD2DA7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A959C1EB2943559100FD2DA7 /* ContentView.swift */; };
 		A959C1EE2943559100FD2DA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A959C1ED2943559100FD2DA7 /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		A9111C3329489F3E00098A86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		A9111C342948A50000098A86 /* HashtagDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashtagDetailView.swift; sourceTree = "<group>"; };
+		A9111C362949B41400098A86 /* MentionDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentionDetailView.swift; sourceTree = "<group>"; };
 		A959C1E62943559100FD2DA7 /* HashTagText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HashTagText.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A959C1E92943559100FD2DA7 /* HashTagTextApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashTagTextApp.swift; sourceTree = "<group>"; };
 		A959C1EB2943559100FD2DA7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -41,6 +43,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A9111C382949B90000098A86 /* DetailViews */ = {
+			isa = PBXGroup;
+			children = (
+				A9111C342948A50000098A86 /* HashtagDetailView.swift */,
+				A9111C362949B41400098A86 /* MentionDetailView.swift */,
+			);
+			path = DetailViews;
+			sourceTree = "<group>";
+		};
+		A9111C392949BA3D00098A86 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A959C1FD2943679200FD2DA7 /* TextExtension.swift */,
+				A959C1F7294355AC00FD2DA7 /* HashtagTextModifier.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		A959C1DD2943559100FD2DA7 = {
 			isa = PBXGroup;
 			children = (
@@ -62,11 +82,10 @@
 			children = (
 				A9111C3329489F3E00098A86 /* Info.plist */,
 				A959C1E92943559100FD2DA7 /* HashTagTextApp.swift */,
-				A9111C342948A50000098A86 /* HashtagDetailView.swift */,
 				A959C1EB2943559100FD2DA7 /* ContentView.swift */,
-				A959C1FD2943679200FD2DA7 /* TextExtension.swift */,
-				A959C1F7294355AC00FD2DA7 /* HashtagTextModifier.swift */,
 				A959C1F9294359DC00FD2DA7 /* HashTagText.swift */,
+				A9111C382949B90000098A86 /* DetailViews */,
+				A9111C392949BA3D00098A86 /* Extensions */,
 				A959C1ED2943559100FD2DA7 /* Assets.xcassets */,
 				A959C1EF2943559100FD2DA7 /* Preview Content */,
 			);
@@ -156,6 +175,7 @@
 				A959C1FA294359DC00FD2DA7 /* HashTagText.swift in Sources */,
 				A959C1F8294355AC00FD2DA7 /* HashtagTextModifier.swift in Sources */,
 				A959C1FE2943679200FD2DA7 /* TextExtension.swift in Sources */,
+				A9111C372949B41400098A86 /* MentionDetailView.swift in Sources */,
 				A959C1EA2943559100FD2DA7 /* HashTagTextApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
